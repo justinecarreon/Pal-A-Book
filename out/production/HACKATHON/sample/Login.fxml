@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="loginPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="392.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.loginController">
+   <children>
+      <ImageView fitHeight="535.0" fitWidth="735.0" layoutX="-168.0" layoutY="-1.0" opacity="0.39" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@AdminBooking/background.jpg" />
+         </image>
+      </ImageView>
+      <FontAwesomeIconView glyphName="USER" layoutX="47.0" layoutY="190.0" size="40" />
+      <JFXTextField layoutX="86.0" layoutY="161.0" opacity="0.75" promptText="USERNAME" style="-fx-background-color: whiTe;" />
+      <JFXPasswordField layoutX="86.0" layoutY="228.0" opacity="0.75" promptText="PASSWORD" style="-fx-background-color: WHITE;" />
+      <FontAwesomeIconView glyphName="LOCK" layoutX="50.0" layoutY="258.0" size="40" />
+      <JFXButton buttonType="RAISED" layoutX="47.0" layoutY="339.0" onAction="#loginSuccess" prefHeight="41.0" prefWidth="113.0" style="-fx-background-color: #ff6961;" text="login">
+         <font>
+            <Font name="BebasNeueBold" size="24.0" />
+         </font>
+      </JFXButton>
+      <Text layoutX="91.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="pal-a-book">
+         <font>
+            <Font name="BebasNeueBold" size="68.0" />
+         </font>
+      </Text>
+      <JFXButton buttonType="RAISED" layoutX="199.0" layoutY="339.0" onAction="#cancelButton" prefHeight="41.0" prefWidth="113.0" style="-fx-background-color: #ff6961;" text="cancel">
+         <font>
+            <Font name="BebasNeueBold" size="24.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="68.0" fitWidth="79.0" layoutX="26.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@AdminBooking/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

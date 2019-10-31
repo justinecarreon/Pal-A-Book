@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #90ee90;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.reserveController1">
+   <children>
+      <Button fx:id="A1" layoutX="31.0" layoutY="100.0" mnemonicParsing="false" onAction="#reserve">
+         <graphic>
+            <MaterialDesignIconView glyphName="STORE" size="40" />
+         </graphic>
+      </Button>
+      <Button fx:id="A2" layoutX="151.0" layoutY="100.0" mnemonicParsing="false" onAction="#reserve2">
+         <graphic>
+            <MaterialDesignIconView glyphName="STORE" size="40" />
+         </graphic>
+      </Button>
+      <Button fx:id="A3" layoutX="270.0" layoutY="100.0" mnemonicParsing="false" onAction="#reserve3">
+         <graphic>
+            <MaterialDesignIconView glyphName="STORE" size="40" />
+         </graphic>
+      </Button>
+      <Button fx:id="A4" layoutX="389.0" layoutY="100.0" mnemonicParsing="false" onAction="#reserve2">
+         <graphic>
+            <MaterialDesignIconView glyphName="STORE" size="40" />
+         </graphic>
+      </Button>
+      <Button fx:id="A5" layoutX="502.0" layoutY="100.0" mnemonicParsing="false" onAction="#reserve">
+         <graphic>
+            <MaterialDesignIconView glyphName="STORE" size="40" />
+         </graphic>
+      </Button>
+      <Line endX="442.0" layoutX="132.0" layoutY="174.0" startX="-107.0" />
+      <Button fx:id="B1" layoutX="31.0" layoutY="293.0" mnemonicParsing="false" onAction="#reserve">
+         <graphic>
+            <MaterialDesignIconView glyphName="STORE" size="40" />
+         </graphic>
+      </Button>
+      <Button layoutX="151.0" layoutY="293.0" mnemonicParsing="false" onAction="#reserve2">
+         <graphic>
+            <MaterialDesignIconView glyphName="STORE" size="40" />
+         </graphic>
+      </Button>
+      <Button fx:id="B3" layoutX="270.0" layoutY="293.0" mnemonicParsing="false" onAction="#reserve3">
+         <graphic>
+            <MaterialDesignIconView glyphName="STORE" size="40" />
+         </graphic>
+      </Button>
+      <Button fx:id="B4" layoutX="389.0" layoutY="293.0" mnemonicParsing="false" onAction="#reserve2">
+         <graphic>
+            <MaterialDesignIconView glyphName="STORE" size="40" />
+         </graphic>
+      </Button>
+      <Button fx:id="B5" layoutX="502.0" layoutY="293.0" mnemonicParsing="false" onAction="#reserve">
+         <graphic>
+            <MaterialDesignIconView glyphName="STORE" size="40" />
+         </graphic>
+      </Button>
+      <Line endX="442.0" layoutX="132.0" layoutY="276.0" startX="-107.0" />
+      <Text layoutX="209.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mall 1st Floor">
+         <font>
+            <Font name="BebasNeueBold" size="38.0" />
+         </font>
+      </Text>
+      <Text layoutX="276.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="hall">
+         <font>
+            <Font name="BebasNeueBold" size="38.0" />
+         </font>
+      </Text>
+      <Label fx:id="reserveLabel" layoutX="28.0" layoutY="78.0" textFill="RED" />
+      <Label fx:id="Label1" layoutX="147.0" layoutY="79.0" textFill="RED" />
+      <Label fx:id="Label2" layoutX="266.0" layoutY="79.0" textFill="RED" />
+      <Label fx:id="Label3" layoutX="385.0" layoutY="79.0" textFill="RED" />
+      <Label fx:id="Label4" layoutX="498.0" layoutY="78.0" textFill="RED" />
+      <Label fx:id="Label5" layoutX="30.0" layoutY="343.0" textFill="RED" />
+      <Label fx:id="Label6" layoutX="149.0" layoutY="344.0" textFill="RED" />
+      <Label fx:id="Label7" layoutX="268.0" layoutY="344.0" textFill="RED" />
+      <Label fx:id="Label8" layoutX="387.0" layoutY="344.0" textFill="RED" />
+      <Label fx:id="Label9" layoutX="500.0" layoutY="343.0" textFill="RED" />
+   </children>
+</AnchorPane>

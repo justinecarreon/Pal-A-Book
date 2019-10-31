@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="mainPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="822.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="550.0" fitWidth="837.0" layoutX="-4.0" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@AdminBooking/background.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="329.0" layoutY="206.0" onAction="#loginUI" prefHeight="60.0" prefWidth="157.0" ripplerFill="#3c3c3c" style="-fx-background-color: #ff6961;" text="login">
+         <font>
+            <Font name="BebasNeueBold" size="24.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="329.0" layoutY="306.0" onMouseClicked="#signupUI" prefHeight="60.0" prefWidth="157.0" ripplerFill="#3c3c3c" style="-fx-background-color: #ff6961;" text="signup">
+         <font>
+            <Font name="BebasNeueBold" size="24.0" />
+         </font>
+      </JFXButton>
+      <Text layoutX="297.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="pal-a-book">
+         <font>
+            <Font name="BebasNeueBold" size="96.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="299.0" layoutY="131.0" opacity="0.75" strokeType="OUTSIDE" strokeWidth="0.0" text="Palengke Appointment Booking">
+         <font>
+            <Font name="BebasNeueBold" size="34.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="149.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@AdminBooking/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

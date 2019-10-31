@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="584.0" prefWidth="878.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.signupController">
+   <children>
+      <ImageView fitHeight="584.0" fitWidth="967.0" opacity="0.26" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@AdminBooking/background.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="21.0" layoutY="45.0" prefHeight="427.0" prefWidth="346.0" style="-fx-background-color: white;">
+         <children>
+            <JFXPasswordField fx:id="passReg" layoutX="75.0" layoutY="166.0" promptText="PASSWORD" style="-fx-background-color: lightgray;" />
+         </children>
+      </AnchorPane>
+      <Text layoutX="513.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="pal-a-book!">
+         <font>
+            <Font name="BebasNeueBold" size="68.0" />
+         </font>
+      </Text>
+      <JFXTextField fx:id="nameReg" layoutX="95.0" layoutY="82.0" promptText="NAME" style="-fx-background-color: lightgray;" />
+      <JFXTextField fx:id="userReg" layoutX="94.0" layoutY="145.0" promptText="USERNAME" style="-fx-background-color: lightgray;" />
+      <JFXTextField fx:id="bussReg" layoutX="94.0" layoutY="277.0" promptText="BUSINESS NAME" style="-fx-background-color: lightgray;" />
+      <JFXButton layoutX="56.0" layoutY="372.0" onAction="#register" prefHeight="41.0" prefWidth="113.0" style="-fx-background-color: lightblue;" text="SIGN UP">
+         <font>
+            <Font name="BebasNeueBold" size="24.0" />
+         </font>
+      </JFXButton>
+      <FontAwesomeIconView glyphName="ARROW_CIRCLE_RIGHT" layoutX="56.0" layoutY="111.0" size="38" />
+      <FontAwesomeIconView glyphName="ARROW_CIRCLE_RIGHT" layoutX="56.0" layoutY="178.0" size="38" text="" />
+      <FontAwesomeIconView glyphName="ARROW_CIRCLE_RIGHT" layoutX="56.0" layoutY="241.0" size="38" />
+      <FontAwesomeIconView glyphName="ARROW_CIRCLE_RIGHT" layoutX="56.0" layoutY="308.0" size="38" text="" />
+      <JFXButton layoutX="194.0" layoutY="372.0" onAction="#cancelButton" prefHeight="41.0" prefWidth="113.0" style="-fx-background-color: lightblue;" text="cancel">
+         <font>
+            <Font name="BebasNeueBold" size="24.0" />
+         </font>
+      </JFXButton>
+      <Text layoutX="597.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to" />
+      <Text layoutX="530.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Palengke-Appointment-Booking" wrappingWidth="214.35791015625" />
+      <ImageView fitHeight="82.0" fitWidth="93.0" layoutX="435.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@AdminBooking/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
